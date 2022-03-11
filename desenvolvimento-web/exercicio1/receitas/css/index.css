@@ -20,4 +20,37 @@ body {
   backdrop-filter: blur(5px);
   width: 60vw;
   height: 100vh;
+  text-align: center;
+}
+
+#content h1 {
+  font-family: 'Parisienne', cursive;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+#content h2 {
+  font-family: 'Parisienne', cursive;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+#content ul li {
+  list-style: none;
+}
+
+#content ul li a:link {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+
+#content ul li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#content ul li a:hover {
+  text-decoration: underline;
+  color: rgb(100, 130, 228);
 }
