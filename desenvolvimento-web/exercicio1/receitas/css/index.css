@@ -35,22 +35,22 @@ body {
   font-size: 44px;
 }
 
-#content ul li {
+#content nav ul li {
   list-style: none;
 }
 
-#content ul li a:link {
+#content nav ul li a:link {
   text-decoration: none;
   color: black;
   cursor: default;
 }
 
-#content ul li a:visited {
+#content nav ul li a:visited {
   text-decoration: none;
   color: black;
 }
 
-#content ul li a:hover {
+#content nav ul li a:hover {
   text-decoration: underline;
   color: rgb(100, 130, 228);
 }
