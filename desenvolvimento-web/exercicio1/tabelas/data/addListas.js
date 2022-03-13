@@ -48,6 +48,68 @@ const listaMedalhaGenero = [
 {modalidade: 'TOTAL', ouroh: '23', pratah: '29', bronzeh: '49', totalh: '101',  ourom: '7', pratam: '7', bronzem: '14', totalm: '28'} 
 ]
 
+const listaJogosInverno = [
+{edicao: '1992 Albertville', atletas: '7', ouro: '0', prata: '0', bronze: '0', total: '0', posicao: '—'},
+{edicao: '1994 Lillehammer', atletas: '1', ouro: '0',  prata: '0', bronze: '0', total: '0', posicao: '—'},
+{edicao: '1998 Nagano', atletas: '1', ouro: '0',  prata: '0', bronze: '0',  total: '0', posicao: '—'},
+{edicao: '2002 Salt Lake City', atletas: '10', ouro: '0',  prata: '0', bronze: '0',  total: '0', posicao: '—'},
+{edicao: '2006 Turim', atletas: '10', ouro: '0',  prata: '0', bronze: '0',  total: '0', posicao: '—'},
+{edicao: '2010 Vancouver', atletas: '5', ouro: '0',  prata: '0', bronze: '0',  total: '0', posicao: '—'},
+{edicao: '2014 Sóchi', atletas: '13', ouro: '0',  prata: '0',   bronze: '0',  total: '0', posicao: '—'},
+{edicao: '2018 PyeongChang', atletas: '9', ouro: '0',  prata: '0', bronze: '0',  total: '0', posicao: '—'},
+{edicao: '2022 Pequim', atletas: '', ouro: '',  prata: '',   bronze: '',  total: '', posicao: '—'},
+{edicao: 'TOTAL', atletas: '56', ouro: '0',  prata: '0', bronze: '0', total: '0', posicao: '—'}
+]
+
+const listaJogosVerao = [
+{edicao: '1920 Antuérpia', atletas: '21', ouro: '1', prata: '1', bronze: '1', total: '3', posicao: '15'}, 
+{edicao: '1924 Paris', atletas: '12', ouro: '0', prata: '0', bronze: '0', total: '0', posicao: '—'}, 
+{edicao: '1928 Amsterdã', atletas: 'Não competiu', ouro: 'Não competiu', prata: 'Não competiu', bronze: 'Não competiu', total: 'Não competiu', posicao: 'Não competiu'}, 
+{edicao: '1932 Los Angeles', atletas: '67', ouro: '0', prata: '0', bronze: '0', total: '0', posicao: '—'}, 
+{edicao: '1936 Berlim', atletas: '94', ouro: '0', prata: '0', bronze: '0', total: '0', posicao: '—'}, 
+{edicao: '1948 Londres', atletas: '77', ouro: '0', prata: '0', bronze: '1', total: '1', posicao: '34'}, 
+{edicao: '1952 Helsinque', atletas: '108', ouro: '1', prata: '0', bronze: '2', total: '3', posicao: '25'}, 
+{edicao: '1956 Melbourne', atletas: '48', ouro: '1', prata: '0', bronze: '0', total: '1', posicao: '25'}, 
+{edicao: '1960 Roma', atletas: '81', ouro: '0', prata: '0', bronze: '2', total: '2', posicao: '39'}, 
+{edicao: '1964 Tóquio', atletas: '68', ouro: '0', prata: '0', bronze: '1', total: '1', posicao: '35'}, 
+{edicao: '1968 Cidade do México', atletas: '84', ouro: '0', prata: '1', bronze: '2', total: '3', posicao: '35'}, 
+{edicao: '1972 Munique', atletas: '89', ouro: '0', prata: '0', bronze: '2', total: '2', posicao: '41'}, 
+{edicao: '1976 Montreal', atletas: '93', ouro: '0', prata: '0', bronze: '2', total: '2', posicao: '36'}, 
+{edicao: '1980 Moscou', atletas: '109', ouro: '2', prata: '0', bronze: '2', total: '4', posicao: '17'}, 
+{edicao: '1984 Los Angeles', atletas: '151', ouro: '1', prata: '5', bronze: '2', total: '8', posicao: '19'}, 
+{edicao: '1988 Seul', atletas: '171', ouro: '1', prata: '2', bronze: '3', total: '6', posicao: '24'}, 
+{edicao: '1992 Barcelona', atletas: '197', ouro: '2', prata: '1', bronze: '0', total: '3', posicao: '25'}, 
+{edicao: '1996 Atlanta', atletas: '225', ouro: '3', prata: '3', bronze: '9', total: '15', posicao: '25'}, 
+{edicao: '2000 Sydney', atletas: '205', ouro: '0', prata: '6', bronze: '6', total: '12', posicao: '53'}, 
+{edicao: '2004 Atenas', atletas: '247', ouro: '5', prata: '2', bronze: '3', total: '10', posicao: '16'}, 
+{edicao: '2008 Pequim', atletas: '277', ouro: '3', prata: '4', bronze: '10', total: '17', posicao: '23'}, 
+{edicao: '2012 Londres', atletas: '259', ouro: '3', prata: '5', bronze: '9', total: '17', posicao: '22'}, 
+{edicao: '2016 Rio de Janeiro', atletas: '465', ouro: '7', prata: '6', bronze: '6', total: '19', posicao: '13'}, 
+{edicao: '2020 Tóquio', atletas: '', ouro: '', prata: '', bronze: '', total: '', posicao: '-'}, 
+{edicao: '2024 Paris', atletas: '', ouro: '', prata: '', bronze: '', total: '', posicao: '-'}, 
+{edicao: '2028 Los Angeles', atletas: '', ouro: '', prata: '', bronze: '', total: '', posicao: '-'}, 
+{edicao: 'TOTAL', atletas: '2683', ouro: '30', prata: '36', bronze: '63', total: '129', posicao: '35'} 
+]
+
+const listaMedalhaModalidade = [
+{modalidade: 'Vela', ouro: '7', prata: '3', bronze: '8', total: '18', posicao: '11'},
+{modalidade: 'Atletismo', ouro: '5', prata: '3', bronze: '9', total: '17', posicao: '36'},
+{modalidade: 'Vôlei', ouro: '5', prata: '3', bronze: '2', total: '10', posicao: '2'},
+{modalidade: 'Judô', ouro: '4', prata: '3', bronze: '15', total: '22', posicao: '9'},
+{modalidade: 'Voleibol de Praia', ouro: '3', prata: '7', bronze: '3', total: '13', posicao: '2'},
+{modalidade: 'Futebol', ouro: '1', prata: '5', bronze: '2', total: '8', posicao: '6'},
+{modalidade: 'Natação', ouro: '1', prata: '4', bronze: '9', total: '14', posicao: '30'},
+{modalidade: 'Tiro', ouro: '1', prata: '2', bronze: '1', total: '4', posicao: '34'},
+{modalidade: 'Ginástica', ouro: '1', prata: '2', bronze: '1', total: '4', posicao: '26'},
+{modalidade: 'Boxe', ouro: '1', prata: '1', bronze: '3', total: '5', posicao: '37'},
+{modalidade: 'Hipismo', ouro: '1', prata: '0', bronze: '2', total: '3', posicao: '20'},
+{modalidade: 'Canoagem', ouro: '0', prata: '2', bronze: '1', total: '3', posicao: '34'},
+{modalidade: 'Basquete', ouro: '0', prata: '1', bronze: '4', total: '5', posicao: '9'},
+{modalidade: 'Taekwondo', ouro: '0', prata: '0', bronze: '2', total: '2', posicao: '29'},
+{modalidade: 'Pentatlo Moderno', ouro: '0', prata: '0', bronze: '1', total: '1', posicao: '21'},
+{modalidade: 'TOTAL', ouro: '30', prata: '36', bronze: '63', total: '129', posicao: '35'}
+]
+
 function addListaMedalhas() {
   let tBodyInsert = document.getElementById('listaMedalhas').getElementsByTagName('tbody')[0]
   listaMedalhas.forEach(element => {
@@ -73,3 +135,42 @@ function addListaMedalhasGenero() {
 }
 
 addListaMedalhasGenero()
+
+function addListaJogosInverno() {
+  let tBodyInsert = document.getElementById('jogosInverno').getElementsByTagName('tbody')[0]
+  listaJogosInverno.forEach(element => {
+    let newRow = tBodyInsert.insertRow();
+    Object.keys(element).forEach(item => {
+      let newCell = newRow.insertCell();
+      newCell.appendChild(document.createTextNode(element[item]));
+    })
+  });
+}
+
+addListaJogosInverno()
+
+function addListaJogosVerao() {
+  let tBodyInsert = document.getElementById('jogosVerao').getElementsByTagName('tbody')[0]
+  listaJogosVerao.forEach(element => {
+    let newRow = tBodyInsert.insertRow();
+    Object.keys(element).forEach(item => {
+      let newCell = newRow.insertCell();
+      newCell.appendChild(document.createTextNode(element[item]));
+    })
+  });
+}
+
+addListaJogosVerao()
+
+function addListaMedalhaModalidade() {
+  let tBodyInsert = document.getElementById('medalhaModalidade').getElementsByTagName('tbody')[0]
+  listaMedalhaModalidade.forEach(element => {
+    let newRow = tBodyInsert.insertRow();
+    Object.keys(element).forEach(item => {
+      let newCell = newRow.insertCell();
+      newCell.appendChild(document.createTextNode(element[item]));
+    })
+  });
+}
+
+addListaMedalhaModalidade()
