@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-#container {
+main {
   background-image: url('../images/fundo-culinário.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -13,7 +13,7 @@ body {
   z-index: -1;
 }
 
-#content {
+section {
   position: absolute;
   left: 20vw;
   background-color: rgba(255, 255, 255, 0.75);
@@ -23,34 +23,34 @@ body {
   text-align: center;
 }
 
-#content h1 {
+section h1 {
   font-family: 'Parisienne', cursive;
   font-weight: bold;
   font-size: 64px;
 }
 
-#content h2 {
+section h2 {
   font-family: 'Parisienne', cursive;
   font-weight: bold;
   font-size: 44px;
 }
 
-#content nav ul li {
+section nav ul li {
   list-style: none;
 }
 
-#content nav ul li a:link {
+section nav ul li a:link {
   text-decoration: none;
   color: black;
   cursor: default;
 }
 
-#content nav ul li a:visited {
+section nav ul li a:visited {
   text-decoration: none;
   color: black;
 }
 
-#content nav ul li a:hover {
+section nav ul li a:hover {
   text-decoration: underline;
   color: rgb(100, 130, 228);
 }
